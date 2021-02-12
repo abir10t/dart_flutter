@@ -1,9 +1,4 @@
-##### to fit properly on the screen:
-      Expanded(
-             child:Image(
-               image: AssetImage('images/dice1.png'),
-             ),
-           ),
+
 ### Material App:
             void main() => runApp(MaterialApp(home:Text('Hello world'));
             
@@ -32,7 +27,7 @@
             ),
           ),
           
-     2. appBar :
+     ##### appBar :
          void main() => runApp(
            MaterialApp(
            home: Scaffold(
@@ -42,6 +37,13 @@
         )
       ),
     );
-           
+    
+    1. material color system : https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+    
+    
+    ##### body :
+    1.  body: Image(
+            image:NetworkImage(''),
+          ),
          
       
