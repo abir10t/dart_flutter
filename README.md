@@ -18,12 +18,13 @@
                  );
          use , in every ')' end + reformat code with dartfmt;
          
+         
       2. finding extra stuff in android studio like (//Center):  preferences -> editor -> general -> appearance -> click show closing labels in Dart source code.
             
          
   ### Scaffold: 
      1. in scaffold there are many other widget like appbar.
-     
+
            void main() => runApp(
             MaterialApp(
               home: Scaffold(
@@ -32,7 +33,6 @@
           ),
           
      2. appBar :
-     
          void main() => runApp(
       MaterialApp(
         home: Scaffold(
