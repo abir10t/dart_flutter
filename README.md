@@ -47,3 +47,14 @@
           ),
          
       
+      
+     2. working with Assets in flutter & the pubspec file:
+     
+        * create an images directroy.
+        * use pubspec.yml file -> assets sector -> - images/
+        * widget : AssetImage('images/diamond.png')
+        
+    ##### App icon :
+        * first projec last tutorial -> flutter with dart
+        
+         
