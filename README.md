@@ -34,10 +34,10 @@
           
      2. appBar :
          void main() => runApp(
-      MaterialApp(
-        home: Scaffold(
-          appBar: AppBar(
-            title:Text('I am a rich'),
+           MaterialApp(
+           home: Scaffold(
+           appBar: AppBar(
+             title:Text('I am a rich'),
           ),
         )
       ),
