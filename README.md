@@ -85,13 +85,14 @@
                 );
               }
             }
-            
+    * container only have one child.  
             
     2.bezel problem: use safe area.-> Alt+enter
     3. margin: Edgeinsets
     4.  * EdgeInsets.symmetric(vertical:50.0, horizontal:10.0) 
         * vertical(ups and down:50.0 , horizontal:10.0) 
         * view from: flutter ispector 
+        * EdgeInsets.fromLTRB(), EdgeInsets.only(30.0),
     
        
     
