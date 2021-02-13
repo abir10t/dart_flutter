@@ -60,6 +60,41 @@
     ##### Deploying flutter apps on a physical android device
     
   ### layout user interface :
+    ##### Hot reload and hot restart: 1. stless
+    
+ 
+  ### layout widgets :
+            2 types of layout widget : * single child widget -> container, *multi-child widget
+  ##### container widget: 
+    1. container with no children try to be as big as possible:
+                        
+              void main() {
+              runApp(MyApp());
+            }
+
+            class MyApp extends StatelessWidget {
+              @override
+              Widget build(BuildContext context) {
+                return MaterialApp(
+                  home: Scaffold(
+                    backgroundColor: Colors.red,
+                    body:Container(
+                      color: Colors.teal,
+                    ),
+                  ),
+                );
+              }
+            }
+            
+            
+    2.bezel problem: use safe area.-> Alt+enter
+    3. margin: Edgeinsets
+    4.  * EdgeInsets.symmetric(vertical:50.0, horizontal:10.0) 
+        * vertical(ups and down:50.0 , horizontal:10.0) 
+        * view from: flutter ispector 
+    
+       
+    
   
     
          
