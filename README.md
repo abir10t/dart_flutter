@@ -93,6 +93,20 @@
         * vertical(ups and down:50.0 , horizontal:10.0) 
         * view from: flutter ispector 
         * EdgeInsets.fromLTRB(), EdgeInsets.only(30.0),
+        
+    5. vertical:
+     * MainAxisSize: 
+     * verticalDirection
+     * mainAxisAlignment
+     
+     6. Horizontal Axis:
+      * crossAxisAlignment
+      
+     7. if we knew how much space need :
+         Container(),
+         SizedBox(height:20.0 // for column, in row need width.
+         ),
+       
     
        
     
