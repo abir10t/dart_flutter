@@ -106,6 +106,17 @@
          Container(),
          SizedBox(height:20.0 // for column, in row need width.
          ),
+         
+   ### custom font in our project:
+     1.  fonts.google.com -> downlod font
+     2.  create a fonts directory
+     3.  drop dowmload file in fonts
+     4.  https://flutter.dev/docs/cookbook/design/fonts
+     
+     
+  ### Adding metarial icon:
+      https://www.materialpalette.com/
+       
        
     
        
