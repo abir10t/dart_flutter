@@ -116,8 +116,14 @@
      
   ### Adding metarial icon:
       https://www.materialpalette.com/
+      
+  ### Visibility :
+  
+    child: Visibility(
+      visible: storyBrain.buttonShouldBeVisible(),
+       )
        
-       
+    buttonShouldBeVisible is a boolean type function that returns true or false.
     
        
     
