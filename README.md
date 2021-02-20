@@ -125,6 +125,13 @@
        
     buttonShouldBeVisible is a boolean type function that returns true or false.
     
+    
+   ##### Editing Theme :
+                theme: ThemeData.dark().copyWith(
+                    primaryColor: Color(0xFF0A0E21),
+                    scaffoldBackgroundColor: Color(0xFF0A0E21),
+                  ),
+    
        
     
   
