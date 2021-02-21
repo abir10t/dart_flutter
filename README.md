@@ -136,6 +136,13 @@
                2. theme:ThemeData(
                      primaryColor: Colors.red, // it change the appbar.
                     ),
+                    
+   ##### Dart borderradius:
+            decoration: BoxDecoration(
+          color:Color(0xff1d1e33),
+          borderRadius: BorderRadius.circular(10.0),
+        ),
+           
   
               
                
