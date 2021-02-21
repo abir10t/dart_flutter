@@ -127,14 +127,16 @@
     
     
    ##### Editing Theme :
-                theme: ThemeData.dark().copyWith(
+               1. theme: ThemeData.dark().copyWith(  // .copywith make the theme dark.
                     primaryColor: Color(0xFF0A0E21),
                     scaffoldBackgroundColor: Color(0xFF0A0E21),
                   ),
     
        
-    
+               2. theme:ThemeData(
+                     primaryColor: Colors.red, // it change the appbar.
+                    ),
   
-    
-         
+              
+               
          
