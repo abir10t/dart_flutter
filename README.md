@@ -142,6 +142,31 @@
           color:Color(0xff1d1e33),
           borderRadius: BorderRadius.circular(10.0),
         ),
+        
+   ##### Create reuseable card widget:
+             use container + Flutter Outline + Extract Widget 
+            
+            
+             Expanded(child: ReuseableCard(
+                   colour:Color( 0xFF1D1E33),
+                )),
+                
+                
+                
+            class ReuseableCard extends StatelessWidget {
+              ReuseableCard({@required this.colour});
+               Color colour;
+
+              @override
+              Widget build(BuildContext context) {
+                return Container(
+                  margin: EdgeInsets.all(15.0),
+                  decoration: BoxDecoration(
+                      color: colour,
+                      borderRadius: BorderRadius.circular(10.0)),
+                );
+              }
+            }
            
   
               
