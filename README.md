@@ -179,5 +179,25 @@
            
   
               
-               
+  ### press + button then we can put some input :
+  
+  
+               void _startAddNewTransaction(BuildContext ctx) {
+                showModalBottomSheet(
+                  context: ctx,
+                  builder: (_) {
+                    return GestureDetector(
+                      onTap: (){},
+                      child: NewTransaction(_addNewTransaction),  // _addNewTransaction list 
+                      behavior: HitTestBehavior.opaque,
+                    );
+                  },
+                );
+              }
+              
+              
+              IconButton(
+            icon: Icon(Icons.add),
+            onPressed: () => _startAddNewTransaction(context),
+          ),
          
