@@ -201,3 +201,10 @@
             onPressed: () => _startAddNewTransaction(context),
           ),
          
+         
+   ### ListView:
+      child: ListView.builder
+      (
+       itemBuilder: (ctx, index) {},
+        itemCount: transactions.length,
+      )
