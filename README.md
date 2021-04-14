@@ -208,3 +208,23 @@
        itemBuilder: (ctx, index) {},
         itemCount: transactions.length,
       )
+      
+   ### fonts :
+   
+               theme: ThemeData(
+                 
+                   
+                    fontFamily: 'OpenSans',  // this will make a global font
+                    
+                    textTheme: ThemeData.light().textTheme.copyWith(
+                      title: TextStyle(
+                        fontFamily: 'OpenSans',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18
+                      )
+                    )
+                    
+                    use it like this 
+                       style: Theme.of(context).textTheme.title,
+
+                   
