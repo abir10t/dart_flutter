@@ -1,3 +1,29 @@
+................................. Dart ....................................................................
+
+### Dart OOP.
+ Every object is an instance of a class
+Dart has NO method overload
+Every member is public by default unless you append
+an underscore (_) which makes it private to its library
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+................................................ Flutter .......................................................
 
 ### Material App:
             void main() => runApp(MaterialApp(home:Text('Hello world'));
